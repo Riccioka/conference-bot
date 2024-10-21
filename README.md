@@ -1,7 +1,7 @@
 # Quiz Bot App
 
 ## General info
-Quiz IT bot
+Conf IT bot
 
 ## Stack info
 Telegram Bot API App is built using Node JS
@@ -16,8 +16,8 @@ Telegram Bot API App is built using Node JS
 * `git conf user.email "[Email]"` настройка пользователя, от имени которого выполняется commit в локальном git-репозитории
 * `git add [Файл]` добавление новых файлов  для фиксация изменений в локальный git-репозиторий
 * `git commit -a -m "[Комментарий]"` фиксация изменений в локальный git-репозиторий (для последующей отправки в github)
-* `git push origin master` отправить последние обновления в github
-* `git pull origin master` получить последние обновления с github
+* `git push origin main` отправить последние обновления в github
+* `git pull origin main` получить последние обновления с github
 
 ### Скрипт установки и запуска приложения на web-сервере
 * `./start_app.sh` Для запуска приложения бота на постоянной основе. Пулит данные (git pull) с github, устанавливает модули node (npm install) и запускает приложение
@@ -25,7 +25,8 @@ Telegram Bot API App is built using Node JS
 * * `chmod 700 [shell script].sh` Пререквизитная команда, её нужно выполнить для запуска [shell script]
 
 ### Команды запуска и останова приложения NodeJS
-* `node htdocs/app.js` ручной запуск приложения на сервере
+* `node htdocs/appform.js` ручной запуск приложения на сервере
 * `CTRL+C` ручной останов приложения на сервере (только для приложения, запущенного вручную)
-* `?node /home/deain/nodejs/bin/forever stop htdocs/app.js` останов приложения на сервере, запущенного на постоянной основе
-* `?node /home/deain/nodejs/bin/forever start htdocs/app.js` запуск приложения на сервере на постоянной основе
+* `?node /home/deain/nodejs/bin/forever stop htdocs/appform.js` останов приложения на сервере, запущенного на постоянной основе
+* `?node /home/deain/nodejs/bin/forever start htdocs/appform.js` запуск приложения на сервере на постоянной основе
+* `pm2 restart appform` перезапуск приложения

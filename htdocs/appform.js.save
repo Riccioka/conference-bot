@@ -1,0 +1,12 @@
+const { Telegraf } = require('telegraf');
+const config = require('./config');
+const bot = new Telegraf(config.bot_token);
+const fs = require('fs');
+
+const userResponses = {};
+let userCounter = 1; // Счетчик для уникального номера
+
+bot.start((ctx) => {
+    const userId = ctx.message.from.id;
+    userResponses[userId] = { step: 0 };
+    ctx.reply('Привет! Мы Тим и Фича, техно-котики из Ингосстраха! Круто, что ты на конференции Enterprise 

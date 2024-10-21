@@ -1,10 +1,11 @@
 module.exports = {
     images: {
-      //greeting: 'https://storage.yandexcloud.net/ingoform/Agile cat 2 (2) (1).png',
-      greeting: 'https://storage.yandexcloud.net/ingoform/Agile%20cat%202%20(2)%20(1).png',
+      begin: 'https://storage.yandexcloud.net/ingoform/begin_stick.png',
 
-      position: 'https://storage.yandexcloud.net/ingoform/Agile%20cat%203%20(1)%20(1).png',
+      work1: 'https://storage.yandexcloud.net/ingoform/work_tim_stick.png',
+      work2: 'https://storage.yandexcloud.net/ingoform/work_ficha_long_stick.png',
      //: 'Agile cat 3 (2).png'}],
-      contacts: 'https://storage.yandexcloud.net/ingoform/Agile%20cat%204%20(1).png'
+      contacts: 'https://storage.yandexcloud.net/ingoform/contacts.png',
+      end: 'https://storage.yandexcloud.net/ingoform/end.png',
     },
 };

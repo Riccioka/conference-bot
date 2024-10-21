@@ -6,7 +6,8 @@
   "author": "deainya",
   "license": "?",
   "dependencies": {
-    "telegraf": "^3.6.1",
-    "forever": "^4.0.0"
+    "forever": "^1.0.1",
+    "node-cron": "^3.0.3",
+    "telegraf": "^3.6.1"
   }
 }
