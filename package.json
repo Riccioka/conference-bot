@@ -1,9 +1,9 @@
 {
-  "name": "Quiz",
+  "name": "ConfBot",
   "version": "1.0.0",
   "description": "Telegram bot API app",
   "main": "app.js",
-  "author": "deainya",
+  "author": "Riccioka",
   "license": "?",
   "dependencies": {
     "forever": "^1.0.1",
